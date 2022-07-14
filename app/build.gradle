@@ -35,6 +35,7 @@ android {
 }
 
 dependencies {
+    implementation 'junit:junit:4.12'
     def lib = rootProject.ext
 
     implementation fileTree(dir: 'libs', include: ['*.jar'])
